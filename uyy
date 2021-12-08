@@ -1,0 +1,249 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "source": [
+    "# Задание 10.\n",
+    "\n",
+    "Вам предоставлен набор данных по качеству воздуха в китайских городах в виде csv файлов.\n",
+    "Основная метрика, которая показывает качество воздуха - PM25(<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4740125/'>подробнее о PM25</a>), указана в колонках, которые начинаются на PM_.\n",
+    "Остальные столбцы содержат либо данные о времени, в которое были произведены измерения, либо данные о погоде в этот момент. DEWP - точка росы, HUMI - влажность, PRES - давление, TEMP - температура, cbwd - направление ветра, Iws - его скорость, precipation - осадки, Iprec - накопленные осадки.\n",
+    "\n",
+    "Для выполнения задания необходимо ответить на вопросы по данным, заполнив ячейки ноутбука. Сам ноутбук необходимо выложить в виде отдельного репозитория на github. Ссылку для клонирования репозитория необходимо приложить в решение задания."
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 1. Загрузите в виде DataFrame набор данных по качеству воздуха Пекина\n",
+    "Ссылка на набор данных: https://disk.yandex.ru/d/1UKJoV1ULW1NLQ"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 2. Сколько всего строк находится в наборе данных?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 3. Сколько измерений уровня загрязнения воздуха находится в наборе данных?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 4. Введите столбец среднего качества воздуха PM_mean с усреднением показаний со всех станций слежения."
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 5. Какое направление ветра преобладает в Пекине?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 6. В какой день качество воздуха является наихудшим(самая большая концентрация частиц)? Вывести дату в типе данных datetime стандартной библиотеки Python."
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 7. Какой из сезонов в Пекине в среднем наименее неблагоприятный для легких за последние 2 года наблюдений?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 8. Коррелирует ли влажность с качеством воздуха?\n",
+    "Можно воспользоваться корреляцией Пирсона из numpy, а также встроенными функциями Pandas."
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 9. Какой из сезонов в Пекине самый дождливый(в среднем по накоплению осадков)?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  },
+  {
+   "cell_type": "markdown",
+   "source": [
+    "## 10. Становится ли качество воздуха во время дождя лучше, чем оно было сразу перед дождем?"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [],
+   "metadata": {
+    "collapsed": false,
+    "pycharm": {
+     "name": "#%%\n"
+    }
+   }
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
